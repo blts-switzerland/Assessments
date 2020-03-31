@@ -1,0 +1,7 @@
+What went wrong:
+The problem with the data set is that the columns have shifted from the place they were located, the gender column also changed a format.
+remedial measures to refactor your data pipeline to be robust:
+•	Re-import the data from the source
+•	Drop columns that are not useful when analyzing or columns that are not going to be needed when analysing.
+•	Format  the columns to be in such a way that can be read for example on the dirty data set the gender values does not give a clear description so in this case the column need to be formatted so that a person reading the data can have a better understanding
+•	Re-arranging the columns, by putting primary key (ID) on the first column then followed by the names and other necessary information.
